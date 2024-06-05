@@ -1,4 +1,4 @@
-# Adding some images of the webpage for visual images of the page at different places and screen size
+# Adding some images of the webpage for visualization of the page at different places and screen sizes
 
 
 ## Bigger Screens
