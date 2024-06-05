@@ -29,8 +29,26 @@ header {
     border-bottom: 3px solid #1c245b;
 }
 
+footer {
+    border-top: 3px solid #1c245b;
+}
 
+.card {
+    border-bottom: 2px solid #1c245b;
+}
 
+.label-container {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.label {
+    font-size: 20px;
+    color:#0f0f38;
+    font-weight: bold;
+    font-style: italic;
+}
 
 
 
