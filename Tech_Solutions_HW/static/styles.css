@@ -3,8 +3,9 @@ body {
     background-size: cover;
     background-position: center;
     font-family: "Sedan";
-    background-color: #518db3; /* Background color */
-    background-color: #f0f5f9;  /* Text color */
+    background-color: #518db3;
+    background-color: #f0f5f9;
+    color: #2c485c; 
 }
 
 .logo {
@@ -12,15 +13,30 @@ body {
     height: 100px;
 }
 
-.container {
-    background-color: transparent;
+h1, h2, h3 {
+    color: #518db3; /* Header color */
 }
 
-/* Ensure no child elements of .container have background color or opacity */
-.container * {
-    background-color: transparent !important;
-    opacity: 1 !important;
+/* Style buttons */
+.btn {
+    background-color: #1c245b; /* Button background color */
+    color: #ffffff; /* Button text color */
 }
+
+/* Accent color for links */
+a {
+    color: #0f0f38; /* Link color */
+}
+
+/* #photo img {
+    max-width: 100%; 
+    height: auto; 
+    max-height: 300px; 
+}
+
+#photo {
+    margin-bottom: 30px;
+} */
 
 
 
