@@ -1,0 +1,30 @@
+
+body {
+    background-size: cover;
+    background-position: center;
+    font-family: "Sedan";
+    background-color: #518db3; /* Background color */
+    background-color: #f0f5f9;  /* Text color */
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    background-color: transparent;
+}
+
+/* Ensure no child elements of .container have background color or opacity */
+.container * {
+    background-color: transparent !important;
+    opacity: 1 !important;
+}
+
+
+
+
+
+
+

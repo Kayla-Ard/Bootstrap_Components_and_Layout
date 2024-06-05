@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+
+<!-- Added a google font to the page -->
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./static/styles.css">
+<title>Tech Solutions Homework Assignment with Bootstrap</title>
+
+<!-- Adding color palette i made in Coolors Palette Widget -->
+<script src="https://coolors.co/palette-widget/widget.js"></script>
+<script data-id="09973516674504732">
+    new CoolorsPaletteWidget("09973516674504732", ["518db3","2c485c","2d306b","1c245b","0f0f38"]); </script>
+
+</head>
+<body>
+    <!--Build Header/Nav Bar Navigation-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="./static/images/logo.gif" alt="Tech Solutions Logo" >
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+<!-- Welcome section -->
+<section id="welcome" class="py-5 text-center">
+    <div class="container">
+        <h1 class="display-4">Welcome to Tech Solutions</h1>
+        <p class="lead">Where our family serves your family for all of your technology needs</p>
+    </div>
+</section>
+
+<!-- About section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Main Content Area -->
+            <div class="col-lg-8 mb-4">
+                <!-- Main Content Title -->
+                <h2 class="mb-4">About Us</h2>
+                <!-- Main Content Text -->
+                <p>
+                    Tech Solutions is a family owned and operated company that has been in business
+                    for over 40 years. Our number one priority is helping our customers. It feels like
+                    family... because it is!
+                </p>
+            </div>
+            <!-- sidebar -->
+            <div class="col-lg-4 mb-4">
+                <h3 class="mb-3">Meet Our Team</h3>
+                <ul class="list-unstyled">
+                    <!-- adding a list of team members-->
+                    <li>Jade Johnson - Owner & CEO</li>
+                    <li>Julie Johnson - CFO</li>
+                    <li>Jacy Johnson - Store Manager</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services section -->
+<section id="services" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="mb-4">Our Services</h2>
+        <div class="row">
+            <!-- Service 1 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <!-- adding an icon for service 1 using the <i> and Font Awesome class-->
+                        <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">We create stunning websites tailored to your needs.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 2 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <!-- adding an icon for service 2 using the <i> and Font Awesome class-->
+                        <i class="fas fa-desktop fa-3x mb-3"></i>
+                        <h5 class="card-title">Online IT Support</h5>
+                        <p class="card-text">24/7 support to keep your systems running smoothly.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 3 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <!-- adding an icon for service 3 using the <i> and Font Awesome class-->
+                        <i class="fas fa-users fa-3x mb-3"></i>
+                        <h5 class="card-title">Consulting</h5>
+                        <p class="card-text">Expert advice to help you make informed decisions.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 4 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <!-- adding an icon for service 4 using the <i> and Font Awesome class-->
+                        <i class="fas fa-hammer fa-3x mb-3"></i>
+                        <h5 class="card-title">Repairs & Installs</h5>
+                        <p class="card-text">Make an appointment to have your device fixed or updated.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="mb-4">Contact Us</h2>
+        <p>985-351-4567</p>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
