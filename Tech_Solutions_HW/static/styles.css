@@ -3,40 +3,31 @@ body {
     background-size: cover;
     background-position: center;
     font-family: "Sedan";
-    background-color: #518db3;
     background-color: #f0f5f9;
     color: #2c485c; 
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
 h1, h2, h3 {
-    color: #518db3; /* Header color */
+    color: #518db3; 
 }
 
-/* Style buttons */
-.btn {
-    background-color: #1c245b; /* Button background color */
-    color: #ffffff; /* Button text color */
+.button {
+    background-color: #1c245b; 
+    color: #1c245b
 }
 
-/* Accent color for links */
 a {
-    color: #0f0f38; /* Link color */
+    color: #0f0f38; 
 }
 
-/* #photo img {
-    max-width: 100%; 
-    height: auto; 
-    max-height: 300px; 
+header {
+    border-bottom: 3px solid #1c245b;
 }
-
-#photo {
-    margin-bottom: 30px;
-} */
 
 
 
